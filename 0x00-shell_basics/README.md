@@ -1,3 +1,4 @@
 #THE SCRIPTS IN THIS REPO PERFORMS THE FOLLOWING:
 
-1. Shows working directory #!/bin/bash pwd
+0. Shows working directory #!/bin/bash pwd
+1. display the content list of your current directory #!/bin/bash ls
