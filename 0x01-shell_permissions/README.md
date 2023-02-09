@@ -30,3 +30,5 @@ Other users: all the permissions
 11. Script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. #!/bin/bash chmod -R +X .
 
 12 .Create a script that creates a directory called my_dir with permissions 751 in the working directory. #!/bin/bash mkdir -m 751 my_dir
+
+13. script that changes the group owner to school for the file hello #!/bin/bash chgrp school hello
