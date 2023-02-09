@@ -1,4 +1,5 @@
-*THE FOLLOWING CODES SHOWS WHAT EACH SCRIPTS DOES*
+#!/bin/bash
+chmod -R +X .*THE FOLLOWING CODES SHOWS WHAT EACH SCRIPTS DOES*
 
 0. Create a scriphat switches the current user to the user betty. #!/bin/bash su be   tty
 
@@ -25,3 +26,5 @@ Other users: all the permissions
 9. Script that sets the mode of the file hello to this "-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello" #!/bin/bash chmod 753 hello
 
 10. Script that sets the mode of the file hello the same as olleh’s mode. #!/bin/bash/chmod --reference=olleh hello
+
+11. Script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. #!/bin/bash chmod -R +X .
