@@ -16,3 +16,4 @@
 10. Script to change working directory to the previous one #!/bin/bash cd -
 ll. Script to list files, hidden file, current directory, parent directory  #!/bin/bas    h ls -la . .. /boot
 12. Script to print file type  #!/bin/bash file /tmp/iamafile
+13 To create a symbolic link to /bin/ls named_ls_
