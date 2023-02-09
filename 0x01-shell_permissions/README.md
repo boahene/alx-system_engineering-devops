@@ -1,4 +1,4 @@
-#!/bin/bash
+l#!/bin/bash
 chmod -R +X .*THE FOLLOWING CODES SHOWS WHAT EACH SCRIPTS DOES*
 
 0. Create a scriphat switches the current user to the user betty. #!/bin/bash su be   tty
@@ -32,3 +32,5 @@ Other users: all the permissions
 12 .Create a script that creates a directory called my_dir with permissions 751 in the working directory. #!/bin/bash mkdir -m 751 my_dir
 
 13. script that changes the group owner to school for the file hello #!/bin/bash chgrp school hello
+
+14. script that changes the owner and the group owner of _hello to vincent and staff respectively  #!/bin/bash chown vincent:staff *
