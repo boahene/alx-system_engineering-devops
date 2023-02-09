@@ -28,3 +28,5 @@ Other users: all the permissions
 10. Script that sets the mode of the file hello the same as olleh’s mode. #!/bin/bash/chmod --reference=olleh hello
 
 11. Script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. #!/bin/bash chmod -R +X .
+
+12 .Create a script that creates a directory called my_dir with permissions 751 in the working directory. #!/bin/bash mkdir -m 751 my_dir
