@@ -14,3 +14,4 @@
 8. Delete the file betty #!/bin/bash rm /tmp/my_first_directory/betty
 9. Svript to delete my_directory from /tmp/directory #!/bin/bash rmdir /tmp/my_first_d   irectory
 10. Script to change working directory to the previous one #!/bin/bash cd -
+ll. Script to list files, hidden file, current directory, parent directory  #!/bin/bas    h ls -la . .. /boot
