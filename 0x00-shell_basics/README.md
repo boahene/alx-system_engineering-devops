@@ -20,3 +20,4 @@ ll. Script to list files, hidden file, current directory, parent directory  #!/b
 15. Script to move files beginig with an uppercase
 16. Scripts that delete all files in current working direcory with emacs "~"
 17. Script that creates the directories welcome/, welcome/to/ and welcome/to    /school in the current directory
+18. command that lists all the files and directories of the current director    y, separated by commas (,).
