@@ -21,3 +21,4 @@ ll. Script to list files, hidden file, current directory, parent directory  #!/b
 16. Scripts that delete all files in current working direcory with emacs "~"
 17. Script that creates the directories welcome/, welcome/to/ and welcome/to    /school in the current directory
 18. command that lists all the files and directories of the current director    y, separated by commas (,).
+19. Create a magic file school.mgc that can be used with the command file to    detect School data files. School data files always contain the string SC    HOOL at offset 0.
