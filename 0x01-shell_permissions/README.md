@@ -36,3 +36,5 @@ Other users: all the permissions
 14. script that changes the owner and the group owner of _hello to vincent and staff respectively  #!/bin/bash chown vincent:staff *
 
 15. changes the owner and the group owner of _hello to vincent and staff respectively. #!/bin/bash chown -h vincent:staff _hello
+
+16.changes the owner of the file hello to betty only if it is owned by the user guillaume. #!/bin/bash chown --from=guillaume betty hello
