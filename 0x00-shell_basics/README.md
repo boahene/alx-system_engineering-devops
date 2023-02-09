@@ -1,0 +1,3 @@
+#THE SCRIPTS IN THIS REPO PERFORMS THE FOLLOWING:
+
+1. Shows working directory #!/bin/bash pwd
