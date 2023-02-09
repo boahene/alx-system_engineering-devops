@@ -18,3 +18,4 @@ ll. Script to list files, hidden file, current directory, parent directory  #!/b
 13 To create a symbolic link to /bin/ls named_ls_
 14 Copy allow
 15 Script to move files beginig with an uppercase
+16 Scripts that delete all files in current working direcory with emacs "~"
