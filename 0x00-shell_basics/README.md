@@ -10,3 +10,4 @@
                                   with user and group IDs displayed numerically
                                   And hidden files (starting with .)
 6. Script that creates a directory named my_first_directory in the /tmp/ directory #!/bin/bash mkdir /tmp/my_first_directory
+7. Script to move betty from /tmp/ directory to /tmp/my_first_directory
