@@ -1,5 +1,4 @@
-#THE SCRIPTS IN THIS REPO PERFORMS THE FOLLOWING:
-
+#THE SCRIPTS IN THIS REPO PERFORMS THE FOLLOWING
 0. Shows working directory #!/bin/bash pwd
 1. Shows the content list of your current directory #!/bin/bash ls
 2. Script to change working directory #!/bin/bash cd
@@ -17,4 +16,4 @@
 ll. Script to list files, hidden file, current directory, parent directory  #!/bin/bas    h ls -la . .. /boot
 12. Script to print file type  #!/bin/bash file /tmp/iamafile
 13 To create a symbolic link to /bin/ls named_ls_
-14 Updated
+14 Copy HTML files
