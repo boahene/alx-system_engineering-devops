@@ -29,4 +29,4 @@ Words should be sorted
 include capital letters as well: grep -i "^[a-z]" /etc/ssh/sshd_config
 
 19. Replace all characters A and c from input to Z and e respectively : tr "A" "Z" | tr "c" "e"
-20.
+20.Create a script that removes all letters c and C from input. :tr -d "cC"
