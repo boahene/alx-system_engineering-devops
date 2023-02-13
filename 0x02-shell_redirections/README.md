@@ -21,3 +21,4 @@ Input format: One line, one word
 Output format: One line, one word
 Words should be sorted
 :: sort | uniq -u
+14. Display lines containing the pattern “root” from the file /etc/passwd:grep -i "root" /etc/passwd
