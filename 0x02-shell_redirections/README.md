@@ -12,3 +12,7 @@
 9. Write a script that duplicates the last line of the file iacta: tail -n 1 iacta >> iacta
 10. Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders. : find . -type f -name "*.js" -delete
 11. Write a script that counts the number of directories and sub-directories in the current directory. :find . -type d -not -name '.' | wc -l
+12. Create a script that displays the 10 newest files in the current directory.Requirements
+One file per line
+Sorted from the newest to the oldest
+: ls -t1 | head -n 10
